@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/login.css">
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="wrap-form">
+            <h1 class="title-form" >Login</h1>
+            <form action="DispatchController" method="POST">
+                <input class="input-control" type="text" name="txtUsername" value="" placeholder="Username"/><br/>
+                <input class="input-control" type="password" name="txtPassword" value="" placeholder="Password"/><br/>
+                <input class="btn" type="submit" value="Login" name="btnAction" />
+                <input class="btn" type="reset" value="Reset" />
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
